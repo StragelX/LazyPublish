@@ -4,7 +4,7 @@ $l: #{"(min-width: 1001px) and (max-width: 1025px)"};
 $xl: #{"(min-width: 1025px)"};
 
 $grid-count: 12;
-$grid-padding: 20px;
+$grid-padding: 30px;
 $col-name: col;
 $grid-prefix: xs s sm m;
 
@@ -74,9 +74,7 @@ $grid-prefix: xs s sm m;
 @mixin offset($size) {
   @for $i from 1 through $grid-count {
     .#{$size}_offset_#{$i} {
-      margin-left: calc(
-        (#{$i} * (100% / #{$grid-count})) + (#{$grid-padding} * (#{$i} - 1))
-      );
+      margin-left: calc((#{$i} * (100% / #{$grid-count})));
     }
   }
 }
