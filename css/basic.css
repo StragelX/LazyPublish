@@ -25,9 +25,9 @@ body {
   margin: 0;
   backface-visibility: hidden;
   -webkit-font-smoothing: antialiased !important;
-  background-color: #028379;
+  background-color: #fff;
   color: #fff;
-  font-family: "Inter - Bold";
+  font-family: "Inter - Regular";
   font-size: 14px;
   font-weight: 400;
 }
