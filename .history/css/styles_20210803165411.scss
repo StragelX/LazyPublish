@@ -1,4 +1,4 @@
-@import "basic";
+@import "basic.scss";
 @import "grid";
 
 .df {
@@ -31,27 +31,8 @@ body {
   margin-right: auto;
 
   @media all and (max-width: 1150px) {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  @media all and (max-width: 767px) {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-.row {
-  @media all and (max-width: 767px) {
-    margin-left: -16px;
-    margin-right: -16px;
-  }
-}
-
-[class*="col_"] {
-  @media all and (max-width: 767px) {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -111,17 +92,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
-
-  @media all and (max-width: 1025px) {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  @media all and (max-width: 999px) {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  z-index: 1;
 
   a {
     color: #ffffff;
@@ -133,27 +104,6 @@ header {
 
   .store {
     margin-left: 64px;
-
-    @media all and (max-width: 767px) {
-      width: 64px;
-      margin-left: 32px;
-
-      img {
-        margin-right: 0;
-      }
-
-      span {
-        display: none;
-      }
-    }
-  }
-
-  .logo {
-    span {
-      @media all and (max-width: 767px) {
-        display: none;
-      }
-    }
   }
 }
 
@@ -181,7 +131,6 @@ footer {
     line-height: 32px;
     text-align: left;
     margin-bottom: 64px;
-    font-family: "Inter - Regular";
   }
 
   .socials {
@@ -210,14 +159,12 @@ footer {
     letter-spacing: normal;
     line-height: 16px;
     text-align: left;
-    font-family: "Inter - Regular";
   }
 
   .links {
     align-items: center;
 
     a {
-      font-family: "Inter - Regular";
       color: #ffffff;
       font-size: 12px;
       font-weight: 400;
@@ -234,12 +181,6 @@ footer {
       background-color: #ffffff;
       margin-left: 16px;
       margin-right: 16px;
-    }
-  }
-
-  .logo {
-    @media all and (max-width: 999px) {
-      margin-bottom: 64px;
     }
   }
 }
@@ -306,22 +247,7 @@ h2 {
     padding-left: 32px;
     padding-right: 32px;
 
-    @media all and (max-width: 999px) {
-      width: 330px;
-      height: 330px;
-    }
-
     &:nth-child(n + 4) {
-      margin-top: 32px;
-    }
-
-    @media all and (max-width: 1025px) {
-      &:nth-child(n + 3) {
-        margin-top: 32px;
-      }
-    }
-
-    @media all and (max-width: 999px) {
       margin-top: 32px;
     }
 
@@ -395,8 +321,6 @@ h3 {
 }
 
 .main_bottom {
-  overflow-x: hidden;
-
   .bg_text {
     top: 430px;
   }
@@ -452,7 +376,6 @@ h4 {
   }
 
   p {
-    font-family: "Inter - Regular";
     color: #000000;
     font-size: 24px;
     font-weight: 400;
@@ -491,31 +414,17 @@ h4 {
   }
 
   .img_1 {
-    top: 0;
-    left: 0;
   }
 
   .img_2 {
-    top: 235px;
-    left: 95px;
-    z-index: 1;
   }
 
   .img_3 {
-    top: 290px;
-    left: 390px;
-    z-index: 0;
   }
 
   .img_4 {
-    z-index: 0;
-    top: 80px;
-    right: -300px;
   }
 
   .img_5 {
-    z-index: 1;
-    right: -270px;
-    top: 0px;
   }
 }

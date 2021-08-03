@@ -18,7 +18,7 @@
     url("../fonts/inter-regular.ttf") format("truetype"),
     url("../fonts/inter-regular.woff") format("woff"),
     url("../fonts/inter-regular.woff2") format("woff2");
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -35,9 +35,9 @@ body {
   -webkit-font-smoothing: antialiased !important;
   background-color: #fff;
   color: #fff;
-  font-family: "Inter - Regular";
+  font-family: "Inter - Bold";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 article,

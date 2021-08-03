@@ -1,7 +1,11 @@
 @font-face {
   font-family: "Inter - Bold";
   src: url("../fonts/inter-bold.eot");
-  src: url("../fonts/inter-bold?#iefix") format("embedded-opentype"), url("../fonts/inter-bold.svg#Plumb-Black") format("svg"), url("../fonts/inter-bold.ttf") format("truetype"), url("../fonts/inter-bold.woff") format("woff"), url("../fonts/inter-bold.woff2") format("woff2");
+  src: url("../fonts/inter-bold?#iefix") format("embedded-opentype"),
+    url("../fonts/inter-bold.svg#Plumb-Black") format("svg"),
+    url("../fonts/inter-bold.ttf") format("truetype"),
+    url("../fonts/inter-bold.woff") format("woff"),
+    url("../fonts/inter-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -9,7 +13,11 @@
 @font-face {
   font-family: "Inter - Regular";
   src: url("../fonts/inter-regular.eot");
-  src: url("../fonts/inter-regular?#iefix") format("embedded-opentype"), url("../fonts/inter-regular.svg#Plumb-Black") format("svg"), url("../fonts/inter-regular.ttf") format("truetype"), url("../fonts/inter-regular.woff") format("woff"), url("../fonts/inter-regular.woff2") format("woff2");
+  src: url("../fonts/inter-regular?#iefix") format("embedded-opentype"),
+    url("../fonts/inter-regular.svg#Plumb-Black") format("svg"),
+    url("../fonts/inter-regular.ttf") format("truetype"),
+    url("../fonts/inter-regular.woff") format("woff"),
+    url("../fonts/inter-regular.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -27,9 +35,9 @@ body {
   -webkit-font-smoothing: antialiased !important;
   background-color: #fff;
   color: #fff;
-  font-family: "Inter - Regular";
+  font-family: "Inter - Bold";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 article,
@@ -151,6 +159,8 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
   -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -196,6 +206,9 @@ main {
 
 .noselect {
   -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -218,18 +231,19 @@ li {
   -webkit-margin-after: 0;
 }
 
-a p,
-a span,
-a h1,
-a h2,
-a h3,
-a h4,
-a h5,
-a h6 {
-  cursor: pointer;
+a {
+  p,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    cursor: pointer;
+  }
 }
 
 .clear {
   clear: both;
 }
-/*# sourceMappingURL=basic.css.map */

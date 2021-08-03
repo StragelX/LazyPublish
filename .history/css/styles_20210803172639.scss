@@ -1,4 +1,4 @@
-@import "basic";
+@import "basic.scss";
 @import "grid";
 
 .df {
@@ -33,25 +33,6 @@ body {
   @media all and (max-width: 1150px) {
     padding-left: 30px;
     padding-right: 30px;
-  }
-
-  @media all and (max-width: 767px) {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-.row {
-  @media all and (max-width: 767px) {
-    margin-left: -16px;
-    margin-right: -16px;
-  }
-}
-
-[class*="col_"] {
-  @media all and (max-width: 767px) {
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
 
@@ -118,11 +99,6 @@ header {
     padding-right: 32px;
   }
 
-  @media all and (max-width: 999px) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   a {
     color: #ffffff;
     font-size: 16px;
@@ -133,27 +109,6 @@ header {
 
   .store {
     margin-left: 64px;
-
-    @media all and (max-width: 767px) {
-      width: 64px;
-      margin-left: 32px;
-
-      img {
-        margin-right: 0;
-      }
-
-      span {
-        display: none;
-      }
-    }
-  }
-
-  .logo {
-    span {
-      @media all and (max-width: 767px) {
-        display: none;
-      }
-    }
   }
 }
 
@@ -181,7 +136,6 @@ footer {
     line-height: 32px;
     text-align: left;
     margin-bottom: 64px;
-    font-family: "Inter - Regular";
   }
 
   .socials {
@@ -210,14 +164,12 @@ footer {
     letter-spacing: normal;
     line-height: 16px;
     text-align: left;
-    font-family: "Inter - Regular";
   }
 
   .links {
     align-items: center;
 
     a {
-      font-family: "Inter - Regular";
       color: #ffffff;
       font-size: 12px;
       font-weight: 400;
@@ -294,6 +246,10 @@ h2 {
   justify-content: space-between;
   margin-bottom: 96px;
 
+  @media all and (max-width: 999px) {
+    justify-content: center;
+  }
+
   .one {
     width: 358px;
     height: 358px;
@@ -305,11 +261,6 @@ h2 {
     flex-direction: column;
     padding-left: 32px;
     padding-right: 32px;
-
-    @media all and (max-width: 999px) {
-      width: 330px;
-      height: 330px;
-    }
 
     &:nth-child(n + 4) {
       margin-top: 32px;
@@ -452,7 +403,6 @@ h4 {
   }
 
   p {
-    font-family: "Inter - Regular";
     color: #000000;
     font-size: 24px;
     font-weight: 400;

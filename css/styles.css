@@ -10,7 +10,7 @@
   font-family: "Inter - Regular";
   src: url("../fonts/inter-regular.eot");
   src: url("../fonts/inter-regular?#iefix") format("embedded-opentype"), url("../fonts/inter-regular.svg#Plumb-Black") format("svg"), url("../fonts/inter-regular.ttf") format("truetype"), url("../fonts/inter-regular.woff") format("woff"), url("../fonts/inter-regular.woff2") format("woff2");
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -27,9 +27,9 @@ body {
   -webkit-font-smoothing: antialiased !important;
   background-color: #fff;
   color: #fff;
-  font-family: "Inter - Regular";
+  font-family: "Inter - Bold";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 article,
@@ -240,7 +240,7 @@ a h6 {
   margin-right: -30px;
 }
 
-[class*="col-"] {
+[class*="col_"] {
   flex: none;
   min-height: 1px;
   flex-grow: 0;
@@ -850,8 +850,29 @@ body.no_scroll {
 
 @media all and (max-width: 1150px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .row {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  [class*="col_"] {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
@@ -913,7 +934,21 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2;
+}
+
+@media all and (max-width: 1025px) {
+  header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media all and (max-width: 999px) {
+  header {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 header a {
@@ -926,6 +961,25 @@ header a {
 
 header .store {
   margin-left: 64px;
+}
+
+@media all and (max-width: 767px) {
+  header .store {
+    width: 64px;
+    margin-left: 32px;
+  }
+  header .store img {
+    margin-right: 0;
+  }
+  header .store span {
+    display: none;
+  }
+}
+
+@media all and (max-width: 767px) {
+  header .logo span {
+    display: none;
+  }
 }
 
 main {
@@ -952,6 +1006,7 @@ footer .text {
   line-height: 32px;
   text-align: left;
   margin-bottom: 64px;
+  font-family: "Inter - Regular";
 }
 
 footer .socials {
@@ -977,6 +1032,7 @@ footer .copyright {
   letter-spacing: normal;
   line-height: 16px;
   text-align: left;
+  font-family: "Inter - Regular";
 }
 
 footer .links {
@@ -984,6 +1040,7 @@ footer .links {
 }
 
 footer .links a {
+  font-family: "Inter - Regular";
   color: #ffffff;
   font-size: 12px;
   font-weight: 400;
@@ -1000,6 +1057,12 @@ footer .links .divider {
   background-color: #ffffff;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+@media all and (max-width: 999px) {
+  footer .logo {
+    margin-bottom: 64px;
+  }
 }
 
 .store {
@@ -1066,8 +1129,27 @@ h2 {
   padding-right: 32px;
 }
 
+@media all and (max-width: 999px) {
+  .adwantages .one {
+    width: 330px;
+    height: 330px;
+  }
+}
+
 .adwantages .one:nth-child(n + 4) {
   margin-top: 32px;
+}
+
+@media all and (max-width: 1025px) {
+  .adwantages .one:nth-child(n + 3) {
+    margin-top: 32px;
+  }
+}
+
+@media all and (max-width: 999px) {
+  .adwantages .one {
+    margin-top: 32px;
+  }
 }
 
 .adwantages .one img {
@@ -1137,6 +1219,10 @@ h3 {
   position: absolute;
 }
 
+.main_bottom {
+  overflow-x: hidden;
+}
+
 .main_bottom .bg_text {
   top: 430px;
 }
@@ -1192,6 +1278,7 @@ h4 {
 }
 
 .terms_policy_wrap p {
+  font-family: "Inter - Regular";
   color: #000000;
   font-size: 24px;
   font-weight: 400;
@@ -1219,5 +1306,42 @@ h4 {
 
 .terms_policy_wrap a:hover {
   text-decoration: none;
+}
+
+.parallax_block_wrap {
+  height: 1070px;
+}
+
+.parallax_block_wrap img {
+  position: absolute;
+}
+
+.parallax_block_wrap .img_1 {
+  top: 0;
+  left: 0;
+}
+
+.parallax_block_wrap .img_2 {
+  top: 235px;
+  left: 95px;
+  z-index: 1;
+}
+
+.parallax_block_wrap .img_3 {
+  top: 290px;
+  left: 390px;
+  z-index: 0;
+}
+
+.parallax_block_wrap .img_4 {
+  z-index: 0;
+  top: 80px;
+  right: -300px;
+}
+
+.parallax_block_wrap .img_5 {
+  z-index: 1;
+  right: -270px;
+  top: 0px;
 }
 /*# sourceMappingURL=styles.css.map */

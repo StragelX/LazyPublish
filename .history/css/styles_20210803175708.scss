@@ -118,7 +118,7 @@ header {
     padding-right: 32px;
   }
 
-  @media all and (max-width: 999px) {
+  @media all and (max-width: 767px) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -294,6 +294,10 @@ h2 {
   justify-content: space-between;
   margin-bottom: 96px;
 
+  @media all and (max-width: 999px) {
+    justify-content: center;
+  }
+
   .one {
     width: 358px;
     height: 358px;
@@ -305,11 +309,6 @@ h2 {
     flex-direction: column;
     padding-left: 32px;
     padding-right: 32px;
-
-    @media all and (max-width: 999px) {
-      width: 330px;
-      height: 330px;
-    }
 
     &:nth-child(n + 4) {
       margin-top: 32px;
