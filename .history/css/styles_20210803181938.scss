@@ -33,8 +33,11 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+
+  @media all and (max-width: 1150px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
   @media all and (max-width: 767px) {
     padding-left: 16px;
@@ -364,10 +367,6 @@ h2 {
   justify-content: space-between;
   margin-bottom: 96px;
 
-  @media all and (max-width: 767px) {
-    margin-bottom: 64px;
-  }
-
   .one {
     width: 358px;
     height: 358px;
@@ -387,8 +386,7 @@ h2 {
 
     @media all and (max-width: 767px) {
       padding-left: 14px;
-      padding-right: 14px;
-      height: 290px;
+      
     }
 
     &:nth-child(n + 4) {
@@ -403,10 +401,6 @@ h2 {
 
     @media all and (max-width: 999px) {
       margin-top: 32px;
-    }
-
-    @media all and (max-width: 767px) {
-      margin-top: 16px !important;
     }
 
     img {
@@ -428,10 +422,6 @@ h2 {
 .qr {
   margin-bottom: 96px;
 
-  @media all and (max-width: 767px) {
-    margin-bottom: 64px;
-  }
-
   img {
     display: block;
     margin-bottom: 16px;
@@ -444,11 +434,6 @@ h2 {
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-
-    @media all and (max-width: 767px) {
-      font-size: 20px;
-      line-height: 28px;
-    }
   }
 }
 
@@ -458,12 +443,6 @@ h3 {
   line-height: 96px;
   text-align: center;
   margin-bottom: 96px;
-
-  @media all and (max-width: 767px) {
-    font-size: 48px;
-    line-height: 64px;
-    margin-bottom: 64px;
-  }
 }
 
 .main_top {
@@ -515,10 +494,6 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 96px;
-
-    @media all and (max-width: 767px) {
-      margin-bottom: 64px;
-    }
   }
 }
 
@@ -532,41 +507,19 @@ h4 {
   text-align: center;
   margin-top: 96px;
   margin-bottom: 64px;
-
-  @media all and (max-width: 767px) {
-    font-size: 36px;
-    line-height: 48px;
-    margin-top: 64px;
-    margin-bottom: 42px;
-  }
 }
 
 .terms_policy_wrap {
   padding-top: 96px;
   padding-bottom: 96px;
 
-  & > *:last-child {
-    margin-bottom: 0;
-  }
-
-  @media all and (max-width: 767px) {
-    padding-top: 64px;
-    padding-bottom: 42px;
-  }
-
   h1 {
     color: #000000;
     font-size: 64px;
     font-weight: 700;
     line-height: 96px;
-    margin-bottom: 64px;
+    margin-bottom: 96px;
     text-align: left;
-
-    @media all and (max-width: 767px) {
-      font-size: 48px;
-      line-height: 64px;
-      margin-bottom: 32px;
-    }
   }
 
   h2 {
@@ -574,29 +527,17 @@ h4 {
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     text-align: left;
-
-    @media all and (max-width: 767px) {
-      font-size: 24px;
-      line-height: 32px;
-      margin-bottom: 16px;
-    }
   }
 
-  h3,
-  h4 {
+  h3 {
     color: #000000;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     text-align: left;
-
-    @media all and (max-width: 767px) {
-      font-size: 20px;
-      line-height: 28px;
-    }
   }
 
   p {
@@ -605,42 +546,13 @@ h4 {
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    margin-bottom: 64px;
-
-    @media all and (max-width: 767px) {
-      font-size: 20px;
-      line-height: 28px;
-      margin-bottom: 32px;
-    }
-  }
-
-  ul {
-    margin-bottom: 64px;
-    list-style-position: inside;
-
-    @media all and (max-width: 767px) {
-      margin-bottom: 32px;
-    }
+    margin-bottom: 96px;
   }
 
   li {
     color: #000000;
     font-size: 24px;
     font-weight: 400;
-
-    @media all and (max-width: 767px) {
-      font-size: 20px;
-      line-height: 28px;
-    }
-
-    & + li {
-      margin-top: 16px;
-    }
-
-    p {
-      display: contents;
-      margin-bottom: 0;
-    }
   }
 
   strong {
@@ -653,7 +565,6 @@ h4 {
   a {
     color: #028379;
     text-decoration: underline;
-    word-break: break-all;
 
     &:hover {
       text-decoration: none;
@@ -663,10 +574,6 @@ h4 {
 
 .parallax_block_wrap {
   height: 1070px;
-
-  @media all and (max-width: 767px) {
-    height: 550px;
-  }
 
   img {
     position: absolute;
@@ -681,43 +588,23 @@ h4 {
     top: 235px;
     left: 95px;
     z-index: 1;
-
-    @media all and (max-width: 767px) {
-      width: 180px;
-      top: 115px;
-      left: 45px;
-    }
   }
 
   .img_3 {
     top: 290px;
     left: 390px;
     z-index: 0;
-
-    @media all and (max-width: 767px) {
-      width: 180px;
-      left: 195px;
-      top: 145px;
-    }
   }
 
   .img_4 {
     z-index: 0;
     top: 80px;
     right: -300px;
-
-    @media all and (max-width: 767px) {
-      display: none;
-    }
   }
 
   .img_5 {
     z-index: 1;
     right: -270px;
     top: 0px;
-
-    @media all and (max-width: 767px) {
-      display: none;
-    }
   }
 }

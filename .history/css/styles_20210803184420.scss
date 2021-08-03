@@ -545,15 +545,6 @@ h4 {
   padding-top: 96px;
   padding-bottom: 96px;
 
-  & > *:last-child {
-    margin-bottom: 0;
-  }
-
-  @media all and (max-width: 767px) {
-    padding-top: 64px;
-    padding-bottom: 42px;
-  }
-
   h1 {
     color: #000000;
     font-size: 64px;
@@ -616,7 +607,6 @@ h4 {
 
   ul {
     margin-bottom: 64px;
-    list-style-position: inside;
 
     @media all and (max-width: 767px) {
       margin-bottom: 32px;
@@ -638,7 +628,6 @@ h4 {
     }
 
     p {
-      display: contents;
       margin-bottom: 0;
     }
   }
