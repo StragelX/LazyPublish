@@ -1535,6 +1535,13 @@ h4 {
   font-family: "Inter - Bold";
 }
 
+@media all and (max-width: 767px) {
+  .terms_policy_wrap strong {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
 .terms_policy_wrap a {
   color: #028379;
   text-decoration: underline;
