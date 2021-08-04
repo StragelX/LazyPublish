@@ -17,11 +17,7 @@
 body {
   display: flex;
   flex-direction: column;
-  padding-top: 128px;
-
-  @media all and (max-width: 767px) {
-    padding-top: 96px;
-  }
+  padding-top: 96px;
 
   &.no_scroll {
     overflow: hidden;

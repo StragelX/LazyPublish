@@ -834,13 +834,7 @@ a h6 {
 body {
   display: flex;
   flex-direction: column;
-  padding-top: 128px;
-}
-
-@media all and (max-width: 767px) {
-  body {
-    padding-top: 96px;
-  }
+  padding-top: 96px;
 }
 
 body.no_scroll {
