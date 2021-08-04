@@ -854,7 +854,7 @@ body.no_scroll {
   margin-right: auto;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1215px) {
   .container {
     padding-left: 30px;
     padding-right: 30px;
@@ -1328,12 +1328,17 @@ h3 {
 
 .main_top {
   padding-top: 96px;
+  overflow: hidden;
 }
 
 @media all and (max-width: 767px) {
   .main_top {
     padding-top: 64px;
   }
+}
+
+.main_top #bg_text_1 {
+  transform: translateX(-2980px);
 }
 
 .bg_text {
@@ -1348,8 +1353,6 @@ h3 {
   line-height: 384px;
   text-align: left;
   white-space: nowrap;
-  overflow: hidden;
-  max-width: 100vw;
   z-index: 0;
   width: 100%;
   height: 400px;

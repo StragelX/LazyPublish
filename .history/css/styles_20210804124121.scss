@@ -467,14 +467,9 @@ h3 {
 
 .main_top {
   padding-top: 96px;
-  overflow: hidden;
 
   @media all and (max-width: 767px) {
     padding-top: 64px;
-  }
-
-  #bg_text_1 {
-    transform: translateX(-2980;
   }
 }
 
@@ -490,6 +485,8 @@ h3 {
   line-height: 384px;
   text-align: left;
   white-space: nowrap;
+  overflow: hidden;
+  max-width: 100vw;
   z-index: 0;
   width: 100%;
   height: 400px;
