@@ -1522,6 +1522,7 @@ h4 {
   color: #028379;
   text-decoration: underline;
   word-break: break-all;
+  font-family: "Inter - Regular";
 }
 
 .terms_policy_wrap a:hover {
