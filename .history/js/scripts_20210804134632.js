@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+    
     $(window).scroll(function() {
         var offset = $('#bg_text_1').offset();
         var posY = offset.top - $(window).scrollTop();
