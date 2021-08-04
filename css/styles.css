@@ -973,13 +973,13 @@ header a {
 }
 
 header .store {
-  margin-left: 64px;
+  margin-left: 32px;
 }
 
 @media all and (max-width: 767px) {
   header .store {
     width: 64px;
-    margin-left: 32px;
+    margin-left: 16px;
   }
   header .store img {
     margin-right: 0;
@@ -1056,13 +1056,7 @@ footer .socials {
 
 footer .socials a {
   flex: none;
-  height: 64px;
-}
-
-@media all and (max-width: 767px) {
-  footer .socials a {
-    height: 24px;
-  }
+  height: 24px;
 }
 
 footer .socials a + a {
@@ -1486,16 +1480,14 @@ h4 {
 .terms_policy_wrap p {
   font-family: "Inter - Regular";
   color: #000000;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 24px;
   margin-bottom: 64px;
 }
 
 @media all and (max-width: 767px) {
   .terms_policy_wrap p {
-    font-size: 20px;
-    line-height: 28px;
     margin-bottom: 32px;
   }
 }
@@ -1513,15 +1505,9 @@ h4 {
 
 .terms_policy_wrap li {
   color: #000000;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
-}
-
-@media all and (max-width: 767px) {
-  .terms_policy_wrap li {
-    font-size: 20px;
-    line-height: 28px;
-  }
+  line-height: 24px;
 }
 
 .terms_policy_wrap li + li {
@@ -1535,16 +1521,10 @@ h4 {
 
 .terms_policy_wrap strong {
   color: #000000;
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 700;
   font-family: "Inter - Bold";
-}
-
-@media all and (max-width: 767px) {
-  .terms_policy_wrap strong {
-    font-size: 20px;
-    line-height: 28px;
-  }
 }
 
 .terms_policy_wrap a {
