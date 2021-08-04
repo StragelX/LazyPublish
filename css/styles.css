@@ -1430,7 +1430,7 @@ h4 {
   font-size: 64px;
   font-weight: 700;
   line-height: 96px;
-  margin-bottom: 64px;
+  margin-bottom: 0;
   text-align: left;
 }
 
@@ -1438,7 +1438,6 @@ h4 {
   .terms_policy_wrap h1 {
     font-size: 48px;
     line-height: 64px;
-    margin-bottom: 32px;
   }
 }
 
@@ -1447,7 +1446,7 @@ h4 {
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
-  margin-bottom: 32px;
+  margin-bottom: 0;
   text-align: left;
 }
 
@@ -1455,7 +1454,6 @@ h4 {
   .terms_policy_wrap h2 {
     font-size: 24px;
     line-height: 32px;
-    margin-bottom: 16px;
   }
 }
 
@@ -1465,7 +1463,8 @@ h4 {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
   text-align: left;
 }
 
@@ -1483,24 +1482,12 @@ h4 {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 64px;
-}
-
-@media all and (max-width: 767px) {
-  .terms_policy_wrap p {
-    margin-bottom: 32px;
-  }
+  margin-bottom: 0;
 }
 
 .terms_policy_wrap ul {
-  margin-bottom: 64px;
+  margin-bottom: 0;
   list-style-position: inside;
-}
-
-@media all and (max-width: 767px) {
-  .terms_policy_wrap ul {
-    margin-bottom: 32px;
-  }
 }
 
 .terms_policy_wrap li {
