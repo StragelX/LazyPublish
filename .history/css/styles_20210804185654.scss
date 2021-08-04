@@ -492,6 +492,7 @@ h3 {
 
   &#bg_text_2 {
     transform: translateX(-1000px);
+    z-index: 1;
   }
 
   @media all and (max-width: 767px) {
