@@ -932,8 +932,8 @@ body.no_scroll {
 }
 
 header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   background-color: #028379;
   position: fixed;
   width: 100%;
