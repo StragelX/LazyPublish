@@ -6,7 +6,7 @@ $( document ).ready(function() {
             $('.img_2').css('transform', 'translateY(' + (($(window).scrollTop() / 4.3) - 500) + 'px)');
             $('.img_4').css('transform', 'translateY(' + (($(window).scrollTop() / 8) - 500) + 'px)');
             $('.improve_bg').css('transform', 'translateY(' + ($(window).scrollTop() / 9.5) + 'px)');
-            // $('.img_0').css('transform', 'translateY(' + ($(window).scrollTop() / 8) + 'px)');
+            $('.img_0').css('transform', 'translateY(' + ($(window).scrollTop() / 8) + 'px)');
         } else {
             $('#bg_text_1, .improve_bg, .img_0').removeAttr("style");
         }
