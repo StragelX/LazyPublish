@@ -5,8 +5,11 @@ $( document ).ready(function() {
             $('#bg_text_2').css('transform', 'translateX(-' + (1000 - $(window).scrollTop() * 0.2) + 'px)');
             $('.img_2').css('transform', 'translateY(' + (($(window).scrollTop() / 4.3) - 500) + 'px)');
             $('.img_4').css('transform', 'translateY(' + (($(window).scrollTop() / 8) - 500) + 'px)');
+            $('.improve_bg').css('transform', 'translateY(' + ($(window).scrollTop() / 9.5) + 'px)');
         } else {
-            $('#bg_text_1, #bg_text_2').removeAttr("style");
+            $('#bg_text_1, .improve_bg').removeAttr("style");
         }
     })
 });
+
+// improve_bg
