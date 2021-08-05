@@ -345,12 +345,8 @@ h2 {
   width: 285px;
   height: 405px;
 
-  @media all and (max-width: 1025px) {
-    left: -30%;
-  }
-
   @media all and (max-width: 767px) {
-    left: -0%;
+    left: -29%;
     top: -30%;
     width: 185px;
   }
@@ -707,10 +703,6 @@ h4 {
   .img_1 {
     top: 0;
     left: 0;
-
-    @media all and (max-width: 450px) {
-      width: 180px;
-    }
   }
 
   .img_2 {
@@ -752,7 +744,7 @@ h4 {
     right: -330px;
     top: 0px;
 
-    @media all and (max-width: 769px) {
+    @media all and (max-width: 767px) {
       display: none;
     }
   }

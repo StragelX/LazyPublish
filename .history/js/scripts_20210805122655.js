@@ -12,8 +12,6 @@ $( document ).ready(function() {
                 $('.img_2').css('transform', 'translateY(' + (($(window).scrollTop() / 4.3) - 550) + 'px)');
             } else if ( $(window).width() == 768 ) {
                 $('.img_2').css('transform', 'translateY(' + (($(window).scrollTop() / 4.3) - 630) + 'px)');
-            } else if ( $(window).width() <= 450 ) {
-                $('.img_2').css('transform', 'translateY(' + (($(window).scrollTop() / 4.3) - 770) + 'px)');
             } else {
                 $('.img_2').css('transform', 'translateY(' + (($(window).scrollTop() / 4.3) - 430) + 'px)');
             }
