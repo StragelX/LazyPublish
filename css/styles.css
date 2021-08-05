@@ -1151,6 +1151,7 @@ h1 {
     font-size: 48px;
     line-height: 64px;
     text-align: center;
+    width: auto;
   }
 }
 
