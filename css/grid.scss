@@ -4,13 +4,9 @@ $l: #{"(min-width: 1001px) and (max-width: 1025px)"};
 $xl: #{"(min-width: 1025px)"};
 
 $grid-count: 12;
-$grid-padding: 30px;
+$grid-padding: 20px;
 $col-name: col;
 $grid-prefix: xs s sm m;
-
-@media all and (max-width: 767px) {
-  $grid-padding: 16px;
-}
 
 @mixin col {
   -ms-flex-preferred-size: 0;

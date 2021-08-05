@@ -6,6 +6,8 @@ $( document ).ready(function() {
             $('.img_4').css('transform', 'translateY(' + (($(window).scrollTop() / 8) - 270) + 'px)');
             $('.improve_bg').css('transform', 'translateY(' + ($(window).scrollTop() / 9.5) + 'px)');
 
+            
+
             if ( $(window).width() == 1024 ) {
                 $('.img_2').css('transform', 'translateY(' + (($(window).scrollTop() / 4.3) - 550) + 'px)');
             } else if ( $(window).width() == 768 ) {
@@ -20,3 +22,5 @@ $( document ).ready(function() {
         }
     })
 });
+
+// var width = $(window).width()

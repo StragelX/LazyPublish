@@ -31,8 +31,8 @@ body {
   margin-right: auto;
 
   @media all and (max-width: 1215px) {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   @media all and (max-width: 767px) {
@@ -304,10 +304,6 @@ h1 {
   line-height: 96px;
   text-align: center;
   margin-bottom: 107px;
-  width: 749px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 
   @media all and (max-width: 767px) {
     margin-bottom: 64px;
@@ -332,10 +328,6 @@ h2 {
 
 .img_0 {
   margin-bottom: 96px;
-  width: 358px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 
   @media all and (max-width: 767px) {
     width: 179px;
@@ -348,7 +340,7 @@ h2 {
 
 .improve_bg {
   position: absolute;
-  left: -15%;
+  left: -41%;
   top: -12%;
   width: 285px;
   height: 405px;
@@ -501,10 +493,6 @@ h3 {
   line-height: 96px;
   text-align: center;
   margin-bottom: 96px;
-  display: block;
-  max-width: 749px;
-  margin-left: auto;
-  margin-right: auto;
 
   @media all and (max-width: 767px) {
     font-size: 48px;
@@ -586,10 +574,6 @@ h4 {
   text-align: center;
   margin-top: 96px;
   margin-bottom: 64px;
-  display: block;
-  max-width: 749px;
-  margin-left: auto;
-  margin-right: auto;
 
   @media all and (max-width: 767px) {
     font-size: 36px;
