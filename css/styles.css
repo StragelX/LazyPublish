@@ -998,7 +998,13 @@ footer {
   padding: 0 32px 32px 32px;
 }
 
-@media all and (max-width: 769px) {
+@media all and (max-width: 1000px) {
+  footer {
+    padding: 0 32px 32px 32px;
+  }
+}
+
+@media all and (max-width: 767px) {
   footer {
     padding: 0 16px 16px 16px;
   }
