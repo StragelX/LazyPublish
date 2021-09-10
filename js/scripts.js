@@ -5,7 +5,10 @@ $(document).ready(function () {
         "transform",
         "translateX(-" + (2980 - $(window).scrollTop() * 0.2) + "px)"
       );
-      // $('#bg_text_2').css('transform', 'translateX(-' + (1000 - $(window).scrollTop() * 0.2) + 'px)');
+      $("#bg_text_2").css(
+        "transform",
+        "translateX(-" + (1000 - $(window).scrollTop() * 0.2) + "px)"
+      );
       // $('.img_4').css('transform', 'translateY(' + (($(window).scrollTop() / 8) - 270) + 'px)');
       $(".improve_bg").css(
         "transform",
