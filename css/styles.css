@@ -855,6 +855,13 @@ body.no_scroll {
   }
 }
 
+@media all and (max-width: 1000px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
 @media all and (max-width: 767px) {
   .container {
     padding-left: 16px;
@@ -935,6 +942,13 @@ header {
   left: 0;
   right: 0;
   z-index: 2;
+}
+
+@media all and (max-width: 1000px) {
+  header .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 @media all and (max-width: 1025px) {
@@ -1503,7 +1517,7 @@ h4 {
 @media all and (max-width: 767px) {
   .terms_policy_wrap {
     padding-top: 64px;
-    padding-bottom: 42px;
+    padding-bottom: 64px;
   }
 }
 
@@ -1646,35 +1660,11 @@ h4 {
 @media all and (max-width: 1000px) {
   .parallax_block_wrap .img_1 {
     width: 220px;
-    left: 4px;
   }
 }
 
 @media all and (max-width: 767px) {
   .parallax_block_wrap .img_1 {
-    width: 90px;
-    left: 0;
-  }
-}
-
-.parallax_block_wrap .img_2 {
-  top: 235px;
-  left: 95px;
-  z-index: 1;
-}
-
-@media all and (max-width: 1000px) {
-  .parallax_block_wrap .img_2 {
-    top: -95px;
-    left: 62px;
-    width: 220px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .parallax_block_wrap .img_2 {
-    top: 82px;
-    left: 23px;
     width: 90px;
   }
 }
@@ -1697,7 +1687,7 @@ h4 {
 @media all and (max-width: 767px) {
   .parallax_block_wrap .img_3 {
     top: 72px;
-    left: 99px;
+    left: 36.5%;
     width: 90px;
   }
 }
