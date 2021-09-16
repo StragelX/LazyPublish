@@ -300,6 +300,8 @@ footer {
 }
 
 .store {
+  font-size: 16px;
+  font-weight: 700;
   color: #fff;
   width: 152px;
   height: 64px;
@@ -534,6 +536,7 @@ h3 {
 
 .main_bottom {
   overflow-x: hidden;
+  line-height: 0;
 
   .bg_text {
     top: 430px;
