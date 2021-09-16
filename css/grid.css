@@ -1,8 +1,8 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 
 [class*="col_"] {
@@ -10,8 +10,8 @@
   min-height: 1px;
   flex-grow: 0;
   flex-shrink: 1;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
   box-sizing: border-box;
 }
 
@@ -110,8 +110,8 @@
     max-width: 100%;
     min-width: 0;
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .s_offset_1 {
     margin-left: calc((1 * (100% / 12)));
@@ -234,8 +234,8 @@
     max-width: 100%;
     min-width: 0;
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .m_offset_1 {
     margin-left: calc((1 * (100% / 12)));
@@ -358,8 +358,8 @@
     max-width: 100%;
     min-width: 0;
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .l_offset_1 {
     margin-left: calc((1 * (100% / 12)));
@@ -482,8 +482,8 @@
     max-width: 100%;
     min-width: 0;
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .xl_offset_1 {
     margin-left: calc((1 * (100% / 12)));
