@@ -13,4 +13,16 @@ $(document).ready(function () {
       $("#bg_text_1").removeAttr("style");
     }
   });
+
+  setAdwantagesHeigth();
+
+  window.onresize = function () {
+    setAdwantagesHeigth();
+  };
 });
+
+function setAdwantagesHeigth() {
+  $(".adwantages .one").each(function () {
+    $(this).css("height", $(this).css("width"));
+  });
+}
