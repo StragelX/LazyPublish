@@ -1264,8 +1264,6 @@ h2 {
 
 @media all and (max-width: 767px) {
   .adwantages .one {
-    padding-left: 14px;
-    padding-right: 14px;
     margin-bottom: 16px;
   }
 }
@@ -1278,10 +1276,17 @@ h2 {
 }
 
 .adwantages .one p {
+  height: 64px;
   color: #000000;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
+}
+
+@media all and (max-width: 767px) {
+  .adwantages .one p {
+    height: auto;
+  }
 }
 
 .qr {
@@ -1454,7 +1459,7 @@ h4 {
     font-size: 36px;
     line-height: 48px;
     margin-top: 64px;
-    margin-bottom: 42px;
+    margin-bottom: 32px;
   }
 }
 
