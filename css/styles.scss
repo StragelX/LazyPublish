@@ -237,6 +237,10 @@ footer {
       & + a {
         margin-left: 16px;
       }
+
+      img {
+        height: 24px;
+      }
     }
   }
 
@@ -502,19 +506,22 @@ h3 {
 
 .bg_text {
   position: absolute;
-  top: 700px;
+  top: 576px;
   opacity: 0.08;
-  color: #000000;
+  color: #000;
   font-size: 256px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 384px;
+  line-height: 391px;
   text-align: left;
   white-space: nowrap;
   z-index: 0;
   width: 100%;
-  height: 400px;
+
+  @media all and (max-width: 1025px) {
+    top: 672px;
+  }
 
   &#bg_text_1 {
     transform: translateX(-2980px);
@@ -528,8 +535,12 @@ h3 {
     height: 192px;
     font-size: 128px;
     line-height: 192px;
-    top: 490px;
+    top: 480px;
     left: 1600px;
+  }
+
+  @media all and (max-width: 375px) {
+    top: 545px;
   }
 
   p {
@@ -542,11 +553,16 @@ h3 {
   line-height: 0;
 
   .bg_text {
-    top: 430px;
+    top: 533px;
+    line-height: 383px;
 
     @media all and (max-width: 767px) {
-      top: 310px;
+      top: 150px;
       left: 70px;
+    }
+
+    @media all and (max-width: 376px) {
+      top: 180px;
     }
   }
 

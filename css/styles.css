@@ -1082,6 +1082,10 @@ footer .socials a + a {
   margin-left: 16px;
 }
 
+footer .socials a img {
+  height: 24px;
+}
+
 @media all and (max-width: 767px) {
   footer .footer_bottom {
     flex-wrap: wrap;
@@ -1373,19 +1377,24 @@ h3 {
 
 .bg_text {
   position: absolute;
-  top: 700px;
+  top: 576px;
   opacity: 0.08;
-  color: #000000;
+  color: #000;
   font-size: 256px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 384px;
+  line-height: 391px;
   text-align: left;
   white-space: nowrap;
   z-index: 0;
   width: 100%;
-  height: 400px;
+}
+
+@media all and (max-width: 1025px) {
+  .bg_text {
+    top: 672px;
+  }
 }
 
 .bg_text#bg_text_1 {
@@ -1401,8 +1410,14 @@ h3 {
     height: 192px;
     font-size: 128px;
     line-height: 192px;
-    top: 490px;
+    top: 480px;
     left: 1600px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .bg_text {
+    top: 545px;
   }
 }
 
@@ -1416,13 +1431,20 @@ h3 {
 }
 
 .main_bottom .bg_text {
-  top: 430px;
+  top: 533px;
+  line-height: 383px;
 }
 
 @media all and (max-width: 767px) {
   .main_bottom .bg_text {
-    top: 310px;
+    top: 150px;
     left: 70px;
+  }
+}
+
+@media all and (max-width: 376px) {
+  .main_bottom .bg_text {
+    top: 180px;
   }
 }
 
