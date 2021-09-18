@@ -345,6 +345,11 @@ h1 {
     text-align: center;
     width: auto;
   }
+
+  @media all and (max-width: 300px) {
+    font-size: 36px;
+    line-height: 48px;
+  }
 }
 
 h2 {
@@ -493,6 +498,11 @@ h3 {
     line-height: 64px;
     margin-bottom: 64px;
   }
+
+  @media all and (max-width: 300px) {
+    font-size: 36px;
+    line-height: 48px;
+  }
 }
 
 .main_top {
@@ -539,8 +549,8 @@ h3 {
     left: 1600px;
   }
 
-  @media all and (max-width: 375px) {
-    top: 545px;
+  @media all and (max-width: 376px) {
+    top: 475px;
   }
 
   p {
@@ -555,6 +565,14 @@ h3 {
   .bg_text {
     top: 533px;
     line-height: 383px;
+
+    @media all and (max-width: 1140px) {
+      top: 462px;
+    }
+
+    @media all and (max-width: 1000px) {
+      top: 370px;
+    }
 
     @media all and (max-width: 767px) {
       top: 150px;
@@ -627,6 +645,11 @@ h4 {
       font-size: 48px;
       line-height: 64px;
       margin-bottom: 64px;
+    }
+
+    @media all and (max-width: 300px) {
+      font-size: 36px;
+      line-height: 48px;
     }
   }
 

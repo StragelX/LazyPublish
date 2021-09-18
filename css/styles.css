@@ -1194,6 +1194,13 @@ h1 {
   }
 }
 
+@media all and (max-width: 300px) {
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
 h2 {
   font-size: 48px;
   line-height: 64px;
@@ -1364,6 +1371,13 @@ h3 {
   }
 }
 
+@media all and (max-width: 300px) {
+  h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
 .main_top {
   padding-top: 96px;
   overflow: hidden;
@@ -1415,9 +1429,9 @@ h3 {
   }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 376px) {
   .bg_text {
-    top: 545px;
+    top: 475px;
   }
 }
 
@@ -1433,6 +1447,18 @@ h3 {
 .main_bottom .bg_text {
   top: 533px;
   line-height: 383px;
+}
+
+@media all and (max-width: 1140px) {
+  .main_bottom .bg_text {
+    top: 462px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .main_bottom .bg_text {
+    top: 370px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -1517,6 +1543,13 @@ h4 {
     font-size: 48px;
     line-height: 64px;
     margin-bottom: 64px;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .terms_policy_wrap h1 {
+    font-size: 36px;
+    line-height: 48px;
   }
 }
 
