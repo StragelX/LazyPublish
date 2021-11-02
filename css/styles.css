@@ -1527,22 +1527,41 @@ h4 {
   }
 }
 
+.terms_policy_wrap .support_link {
+  text-align: center;
+  display: block;
+  color: #028379;
+  font-family: "Inter - Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration: underline;
+  margin-bottom: 96px;
+}
+
+@media all and (max-width: 767px) {
+  .terms_policy_wrap .support_link {
+    margin-bottom: 32px;
+  }
+}
+
 .terms_policy_wrap h1 {
   color: #000000;
   font-size: 64px;
   font-weight: 700;
   line-height: 96px;
   margin-block-end: 0.67em;
-  text-align: left;
+  text-align: center;
   width: 100%;
   padding-left: 0;
+  margin-bottom: 32px;
 }
 
 @media all and (max-width: 767px) {
   .terms_policy_wrap h1 {
     font-size: 48px;
     line-height: 64px;
-    margin-bottom: 64px;
+    margin-bottom: 20px;
   }
 }
 
@@ -1579,7 +1598,7 @@ h4 {
   font-weight: 700;
   line-height: 32px;
   margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-end: -0.8em;
   text-align: left;
   width: 100%;
   max-width: 100%;
@@ -1604,7 +1623,8 @@ h4 {
   margin-block-end: 1em;
 }
 
-.terms_policy_wrap ul {
+.terms_policy_wrap ul,
+.terms_policy_wrap ol {
   margin-block-start: 1em;
   margin-block-end: 1em;
   list-style-position: inside;
@@ -1615,6 +1635,7 @@ h4 {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  font-family: "Inter - Regular";
 }
 
 .terms_policy_wrap li + li {
@@ -1638,7 +1659,8 @@ h4 {
   color: #028379;
   text-decoration: underline;
   word-break: break-all;
-  font-family: "Inter - Regular";
+  font-family: "Inter - Bold";
+  font-weight: 700;
 }
 
 .terms_policy_wrap a:hover {
