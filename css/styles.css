@@ -1638,10 +1638,6 @@ h4 {
   font-family: "Inter - Regular";
 }
 
-.terms_policy_wrap li + li {
-  margin-top: 16px;
-}
-
 .terms_policy_wrap li p {
   display: contents;
   margin-bottom: 0;
