@@ -85,7 +85,7 @@ body {
 
 .logo {
   flex: none;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   text-align: right;
   align-items: center;
@@ -140,7 +140,7 @@ header {
   }
 
   a {
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -310,7 +310,7 @@ footer {
   width: 152px;
   height: 64px;
   border-radius: 16px;
-  background-color: #000000;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -689,7 +689,7 @@ h4 {
 
   h3,
   h4 {
-    color: #000000;
+    color: #000;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -724,7 +724,7 @@ h4 {
   }
 
   li {
-    color: #000000;
+    color: #000;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -737,7 +737,7 @@ h4 {
   }
 
   strong {
-    color: #000000;
+    color: #000;
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
